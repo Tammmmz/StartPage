@@ -1,0 +1,113 @@
+/*
+Cú pháp: @media screen and (mix(or max): number pixel{...}
+1. Responsive chỉ khuyên dùng đơn vị là %, rem, em
+NGHIÊM CẤM dùng pixel.
+2. Mobile (min-width-0px)-->(max-width:768px)
+Table (min-width-768px)-->(max-width:1024px)
+Desktop-big (min-width-1024px)-->(max-width: >1024px)
+*/
+
+/*start Mobile*/
+@media screen and (max-width: 768px) {
+  .header .menu ul li {
+    padding: 0.5rem;
+  }
+  .header .icon ul li {
+    padding: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  /*main-1*/
+  .main-1 {
+    background-color: black;
+  }
+  .main-1 .content h1 {
+    font-size: 1.5rem;
+  }
+  .main-1 .content span {
+    font-size: 0.65rem;
+  }
+  .main-1 .content p {
+    font-size: 0.5rem;
+  }
+  .main-1 .content button {
+    font-size: 0.8rem;
+    padding: 0.8rem 0.8rem;
+    background-color: #f44336;
+    border-radius: 0.8rem;
+  }
+  /*main-2*/
+  .main-2 {
+    padding: 0.2rem;
+  }
+  .main-2 .contentBig {
+    padding: 1rem;
+  }
+  .main-2 .contentBig .icon-2 {
+    margin-top: 6rem;
+  }
+  .main-2 .contentBig .icon-2 i {
+    font-size: 6rem;
+    color: #f44336;
+    width: 0;
+    padding-right: 7rem;
+  }
+  .main-2 .contentBig .content-2 h2 {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .main-2 .contentBig .content-2 p {
+    padding-top: 0.5rem;
+    font-size: 0.5rem;
+  }
+  /*main-3*/
+  .main-3 {
+    padding: 0;
+  }
+  .main-3 .contentBig-3 {
+    padding: 0.1rem;
+  }
+  .main-3 .contentBig-3 .content-3 h2 {
+    font-size: 1rem;
+    text-align: right;
+  }
+  .main-3 .contentBig-3 .content-3 p {
+    padding: 0.5rem !important;
+    font-size: 0.5rem;
+  }
+  .main-3 .contentBig-3 .icon-3 {
+    margin-top: 2rem;
+  }
+  .main-3 .contentBig-3 .icon-3 i {
+    font-size: 6rem;
+    margin-left: 0.4rem;
+  }
+
+  /*main-4*/
+  .main-4 p {
+    padding: 3rem 0;
+    font-size: 1rem;
+  }
+  /*Footer*/
+  .footer .content-footer {
+    padding: 3rem;
+  }
+  .footer .content-footer ul li {
+    font-size: 2rem;
+    padding: 0rem 0.2rem;
+  }
+  .footer .content-footer p {
+    font-size: 0.8rem;
+  }
+} /*end Mobile*/
+/*Start table tab*/
+@media screen and (max-width: 1024) {
+  .main-2 {
+    padding: 0.3rem;
+  }
+  .main-3 {
+    padding: 0;
+  }
+  .main-3 .contentBig-3 {
+    padding: 2rem;
+  }
+} /*end Table*/
