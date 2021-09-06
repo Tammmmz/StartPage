@@ -122,9 +122,11 @@ body {
   font-size: 36px;
   font-weight: 100;
   padding: 50px 20px;
+  color: red;
 }
 .main-2 .contentBig .content-2 p {
   padding: 20px;
+  color: red;
 }
 .main-2 .contentBig .icon-2 {
   width: 25%;
